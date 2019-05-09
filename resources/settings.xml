@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+	<category label="30100">
+		<setting id="bit" label="30101" type="labelenum" values="64|128|320" default="320"/>
+	</category>
+</settings>

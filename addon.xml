@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<addon id="plugin.audio.radiorecord.ru"
+       name="RadioRecord"
+       version="1.0.2"
+       provider-name="German Dzmitry">
+	<requires>
+  		<import addon="xbmc.python" version="2.1.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" language="ru" library="addon.py">
+		<provides>audio</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Internet radio station http://www.radiorecord.ru/</summary>
+		<summary lang="ru">Интернет-радиостанция http://www.radiorecord.ru/</summary>
+		<description lang="en">Radio Record</description>
+		<description lang="ru">Radio Record</description>
+	</extension>
+</addon>
